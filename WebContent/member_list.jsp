@@ -25,7 +25,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>MEMBER LIST</title>
 </head>
 <body>
 	<table border=1 width="300" style="margin-left:auto; margin-right:auto;">
