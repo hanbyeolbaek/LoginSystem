@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MEMBER LOGIN</title>
+<title>MEMBER LOGIN PROCESS</title>
 </head>
 <body>
 <%
