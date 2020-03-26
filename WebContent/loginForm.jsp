@@ -22,8 +22,10 @@
 				<td><input type="password" name="pwd"></td>
 			</tr>
 			<tr>
-				<td colspan="2" align=center><input type="submit" value="login">
-				<input type="button" onclick="location.href('joinForm.jsp')" value="sign up"></td>
+				<td colspan="2" align=center>
+					<input type="submit" value="login">
+					<input type="button" onclick="location.href='joinForm.jsp'" value="sign up">
+				</td>
 			</tr>
 		</table>
 	</form>
