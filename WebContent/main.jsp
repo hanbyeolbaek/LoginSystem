@@ -72,8 +72,10 @@
 		</tr>
 		<tr align=center>
 			<td colspan=2>
+				<input type="button" onclick="location.href='updateForm.jsp'" value="UPDATE">
 				<input type="button" onclick="location.href='loginForm.jsp'" value="LOGOUT">
 			</td>
+		</tr>
 	</table>
 <%
 			
