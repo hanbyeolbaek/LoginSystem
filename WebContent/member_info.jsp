@@ -27,7 +27,7 @@
 		pstmt = conn.prepareStatement("select * from member where email=?");
 		pstmt.setString(1, info_email);
 		rs = pstmt.executeQuery();
-		rs.next();
+		if(rs.next()){
 %>
 	<table border=1 width=300 style="margin-left:auto; margin-right:auto;">
 		<tr align=center>
@@ -49,6 +49,7 @@
 		</tr>
 	</table>
 <%
+		}
 	}catch(Exception e){
 		e.printStackTrace();
 	}finally{

@@ -37,10 +37,10 @@
 %>
 		<tr align=center>
 			<td>
-				<a href="member_info.jsp?email=<%=rs.getString("name")%>"> <%=rs.getString("name")%></a>
+				<a href="member_info.jsp?email=<%=rs.getString("email")%>"> <%=rs.getString("email")%></a>
 			</td>
 			<td>
-				<a href="member_delete.jsp?email=<%=rs.getString("name")%>">삭제</a>
+				<a href="member_delete.jsp?email=<%=rs.getString("email")%>">삭제</a>
 			</td>
 		</tr>
 <%
