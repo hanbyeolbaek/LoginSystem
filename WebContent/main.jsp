@@ -31,7 +31,13 @@
 <%
 	if (name.equals("관리자")) {
 %>
-	<input type="button" onclick="location.href='member_list.jsp'" value="member list">
+	<table style="margin-left:auto; margin-right:auto;">
+		<tr align="center">
+			<td>
+				<input type="button" onclick="location.href='member_list.jsp'" value="member list">
+			</td>
+		</tr>
+	</table>
 <%
 	}else{
 		Connection conn = null;
