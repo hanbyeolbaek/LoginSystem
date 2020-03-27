@@ -10,3 +10,5 @@ time TIMESTAMP not null);
 insert into member VALUES (0, 'admin', '°ü¸®ÀÚ', 'admin', systimestamp);
 
 select * from member;
+
+commit;

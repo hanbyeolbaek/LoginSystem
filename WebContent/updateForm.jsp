@@ -12,7 +12,7 @@
 		<table border=1 style="margin-left:auto; margin-right:auto;">
 			<tr>
 				<td colspan="2" align="center"><b><font size=5>UPDATE</font></b></td>
-			</tr
+			</tr>
 			<tr>
 				<td>EMAIL :</td>
 				<td><input type="text" name="email"></td>
