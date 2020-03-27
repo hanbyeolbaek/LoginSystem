@@ -6,7 +6,7 @@
 <%@ page import="java.sql.*" %>
 
 <%
-	String email = request.getParameter("email")
+	String email = request.getParameter("email");
 	String pwd = request.getParameter("pwd");
 	
 	Connection conn = null;
