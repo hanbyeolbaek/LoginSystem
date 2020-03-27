@@ -8,6 +8,7 @@
 <%
 	String email = request.getParameter("email");
 	String pwd = request.getParameter("pwd");
+	String name = request.getParameter("name");
 	
 	Connection conn = null;
 	PreparedStatement pstmt = null;
@@ -29,8 +30,12 @@
 		if(rs.next()){
 			String rEmail = rs.getString("email");
 			String rPwd = rs.getString("pwd");
-			if(id.equals(rId) && passwd.equals(rPasswd)){
+			if(email.equals(rEmail) && pwd.equals(rPwd)){
 				sql = "update member set name = ? where email = ? and pwd = ?";
+				if(rs!=null)
+					try{rs.close();}catch(SQLException sqle){}
+				if(pstmt!=null)
+					try{pstmt.close();}catch(SQLException sqle){}
 				pstmt = conn.prepareStatement(sql);
 				pstmt.setString(1, name);
 				pstmt.setString(2, email);
