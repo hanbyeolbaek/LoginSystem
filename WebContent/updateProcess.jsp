@@ -52,11 +52,11 @@
 		e.printStackTrace();
 	}finally{
 		if(rs!=null)
-			try{rs.close();}catch(SQLException sqle){}
+			try{rs.close();}catch(SQLException sqle){sqle.printStackTrace();}
 		if(pstmt!=null)
-			try{pstmt.close();}catch(SQLException sqle){}
+			try{pstmt.close();}catch(SQLException sqle){sqle.printStackTrace();}
 		if(conn!=null)
-			try{conn.close();}catch(SQLException sqle){}
+			try{conn.close();}catch(SQLException sqle){sqle.printStackTrace();}
 	}
 %>
 
